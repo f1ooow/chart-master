@@ -1,7 +1,7 @@
 {
   "name": "chart-master",
   "version": "1.0.0",
-  "homepage": "https://f1ooow.github.io/chart-master",
+  "homepage": "./",
   "description": "A powerful chart visualization tool",
   "private": true,
   "scripts": {
