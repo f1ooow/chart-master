@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import RadarChart from './components/charts/RadarChart';
 import BarChart from './components/charts/BarChart';
@@ -8,7 +8,7 @@ import './styles/App.css';
 
 function App() {
   return (
-    <Router>
+    <HashRouter>  {/* 使用 HashRouter，不需要 basename */}
       <div className="app">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -17,7 +17,7 @@ function App() {
           <Route path="/column" element={<ColumnChart />} />
         </Routes>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
