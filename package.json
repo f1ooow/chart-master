@@ -1,13 +1,16 @@
 {
-  "name": "chart-master",
+  "name": "chartmaster",
   "version": "1.0.0",
+  "homepage": "https://f1ooow.github.io/chartmaster",
   "description": "A powerful chart visualization tool",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.3.1",
