@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/chartmaster/static/css/main.41594798.css",
+    "main.js": "/chartmaster/static/js/main.a8791ef9.js",
+    "index.html": "/chartmaster/index.html",
+    "main.41594798.css.map": "/chartmaster/static/css/main.41594798.css.map",
+    "main.a8791ef9.js.map": "/chartmaster/static/js/main.a8791ef9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41594798.css",
+    "static/js/main.a8791ef9.js"
+  ]
+}
